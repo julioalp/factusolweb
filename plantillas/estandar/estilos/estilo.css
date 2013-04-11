@@ -1,0 +1,77 @@
+
+a { text-decoration:none; }
+body { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px; margin:0px; }
+caption { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px; }
+form { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; margin:0px; }
+img { border:0px; }
+input {
+	font-size:10px;
+	font-family:Verdana,Helvetica;
+	color:#000000;
+	background:#FFFFFF;
+}
+p { margin-bottom:0px; margin-top:0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; }
+select {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; 
+	font-size: 10px; 
+}
+table { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; border:0px; }
+td { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px; }
+th { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; font-size: 10px; }
+.buscarselect { width:170px; }
+.cabecera {
+	border-color:#000000;
+	font-weight:bold;
+	color:#000000;
+	background-color:#CCCCCC;
+}
+.cabecerapeq {
+	font-weight: bold;
+	font-size:10px;
+	color: #000000;
+}
+.carritoalto { height:340px; }
+.carritoancho { width:233px; }
+.carritoanchoint { width:217px; }
+.carritocontenidoalto { height:287px; }
+.carritofondo { background-color:#F3F6F9; }
+.degradado {
+/* Mozilla ignores crazy MS image filters, so it will skip the following */
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='plantillas/estandar/imagenes/cabecerafondo.png');
+}
+/* IE ignores styles with [attributes], so it will skip the following. */
+.degradado[class] {
+background-image:url(plantillas/estandar/imagenes/cabecerafondo.png);
+}
+.degradadotop {
+background-position:top;
+/* Mozilla ignores crazy MS image filters, so it will skip the following */
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='plantillas/estandar/imagenes/cabeceradeg.png');
+background-repeat:no-repeat;
+}
+/* IE ignores styles with [attributes], so it will skip the following. */
+.degradadotop[class] {
+	background-image:url(plantillas/estandar/imagenes/cabeceradeg.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+.lproductos { height:405px; overflow:auto; overflow-y:scroll; background-color:#FFFFFF; }
+.laproductos { height:395px; overflow:auto; background-color:#FFFFFF; }
+.menucolorfondo { background-color:#DAE1E9; }
+.menucolorfondonombre { background-color:#C0CEDD; }
+.ofertatitulo { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; text-align:center; }
+.taglist { border: 1px solid #666666; background-color:#FFFFFF; }
+.taglist tbody tr.selected td {
+	background-color: #3d80df;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-left: 1px solid #346DBE;
+	border-bottom: 1px solid #7DAAEA;
+}
+.tarifaselect { width:70px; }
+.titulo	{
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif; 
+	font-size:12px;
+	font-weight:bold;
+}
